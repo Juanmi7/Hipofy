@@ -1,0 +1,156 @@
+.NewList {
+  background-color: #f2f4f7;
+  padding: 1.5em;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: 4rem auto;
+  font-size: 1.3rem;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e2e2e2;
+  & .back {
+    color: rgb(110, 110, 110);
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 0.5em;
+  }
+}
+
+.NewListFormProducts {
+  padding: 0.3rem;
+  margin-bottom: 1rem;
+  background-color: #ffe2d3;
+  font-size: 1rem;
+  border-bottom: 1px solid #ee6b4d;
+  border-left: 1px solid #ee6b4d;
+  border-right: 1px solid #ee6b4d;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.NewListFormButton {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  margin-top: 3em;
+  & .normalButton {
+    background-color: coral;
+    color: #ffffff;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    &:hover {
+      background-color: #fcefe8;
+      color: #e86934;
+      cursor: pointer;
+      border: 1px solid #e86934;
+    }
+  }
+  & .disabledButton {
+    background-color: #d4d4d4;
+    color: #919191;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    border: 1px solid transparent;
+  }
+}
+
+.NewList h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.ListName {
+  color: #807c7b;
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  text-decoration: underline;
+
+  padding-bottom: 1.5rem;
+}
+
+.SearchInput {
+  width: 100%;
+  padding: 0.5em;
+  border: none;
+  background-color: #ffffff;
+  border-top: 1px solid #ee6b4d;
+  border-left: 1px solid #ee6b4d;
+  border-right: 1px solid #ee6b4d;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  margin-top: 1em;
+}
+
+.NameInput {
+  width: 100%;
+  padding: 0.5em;
+  border-radius: 5px;
+  border: none;
+  margin: 1em 0;
+  background-color: #ffffff;
+  border: 1px solid #ee6b4d;
+}
+
+.List {
+  font-family: "Shadows Into Light", cursive;
+  margin-top: 3rem;
+
+  border-radius: 5px;
+  padding: 1rem 0rem 0rem 0rem;
+  background-image: url("../../../assets/FondoLista.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  color: #615d5c;
+  font-size: 1.5rem;
+}
+
+.ButtonAdd {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+}
+
+.ButtonAdd button {
+  background-color: #ffffff;
+  color: #ee6b4d;
+  border: none;
+  padding: 0.1rem 2rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.UlList {
+  padding-left: 3rem;
+  margin-bottom: 1rem;
+  margin-top: -1.5rem;
+  & li:last-of-type {
+    padding-bottom: 1em;
+  }
+}
+@media (min-width: 500px) {
+  .UlList {
+    padding-left: 7rem;
+    margin: 1rem;
+  }
+}
+.ErrorInput {
+  border: 2px solid red;
+}
+.RemoveButton {
+  cursor: pointer;
+  background-color: rgb(221, 215, 215);
+  padding: 0.3rem;
+  border-radius: 50%;
+
+  margin-right: 2rem;
+  margin-top: 0.5rem;
+}

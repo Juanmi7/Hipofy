@@ -1,0 +1,62 @@
+.yourProfileModal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 2em 0 0 0;
+  background-color: #f2f4f7;
+  border-radius: 0.5em;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.iconModal {
+  color: coral;
+  font-size: 1em;
+}
+
+.profileModal {
+  margin: 1em;
+  padding: 0.8em;
+  list-style: none;
+  font-size: 1em;
+}
+
+.profileInfoModal {
+  margin: 1em;
+  padding: 0;
+  list-style: none;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+.EditProfileForm input {
+  margin: 0.5em;
+  padding: 0.5em;
+  border-radius: 0.5em;
+  border: 1px solid #ccc;
+  font-size: 1em;
+}
+
+.EditProfileButton {
+  margin: 1em;
+  padding: 0.5em;
+  border-radius: 0.5em;
+  border: 1px solid #ccc;
+  font-size: 1em;
+  background-color: coral;
+  cursor: pointer;
+  color: #f2f4f7;
+}
+
+.greenalert {
+  display: flex;
+  text-align: center;
+  & p {
+    width: 100%;
+    padding: 0.5em;
+    background-color: #ffffff;
+    border: 1px solid #34aa3e;
+    border-radius: 0.5rem;
+    margin-top: 1em;
+  }
+}

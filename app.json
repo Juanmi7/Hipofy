@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "scheme": "acme",
+    "web": {
+      "bundler": "metro"
+    },
+    "splash": {
+      "image": "./assets/images/PantallaInicio.png",
+      "resizeMode": "cover"
+    },
+    "icon": "./assets/images/favicon.png",
+    "name": "hipofy",
+    "slug": "hipofy",
+    "extra": {
+      "eas": {
+        "projectId": "f60431d2-f22f-45e0-a1ed-19644cf6588b"
+      }
+    },
+    "android": {
+      "package": "com.hipofy.app",
+      "versionCode": 31
+    },
+    "ios": {
+      "bundleIdentifier": "com.hipofy.app",
+      "buildNumber": "22"
+    }
+  }
+}

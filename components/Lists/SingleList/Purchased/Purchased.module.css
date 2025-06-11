@@ -1,0 +1,104 @@
+.purchased {
+  padding: 1em 1.5em;
+  margin: 1em 0;
+  border-radius: 0.5rem;
+  background-color: #f2f4f7;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.18);
+
+  & .list-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.1rem;
+    border-bottom: 1px solid #e0e0e0;
+    margin-bottom: 1em;
+    padding-bottom: 0.5em;
+    & > span {
+      margin: 0;
+      padding: 0.5em 1.5em;
+      border-radius: 0.5rem;
+      background-color: #5fb98c;
+      color: #fff;
+    }
+    & > h3 {
+      overflow-x: scroll;
+    }
+  }
+
+  & .list-body {
+    & .list-body-header {
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 1.5em;
+      font-size: 1.2rem;
+      font-weight: 600;
+    }
+    & .list-body-products > ul > li {
+      list-style-type: "-    ";
+      margin-left: 2.5em;
+      padding: 0.75em 0;
+      font-size: 1.2rem;
+    }
+    & .list-body-footer > p {
+      font-weight: 600;
+      font-size: 1rem;
+      margin: 2em 0;
+    }
+  }
+  & .list-footer {
+    margin: 1em 0;
+    border-top: 1px solid #e0e0e0;
+
+    & .market {
+      margin: 2em 0;
+      display: flex;
+      justify-content: left;
+      align-items: center;
+
+      & > svg {
+        margin-right: 0.5em;
+        color: black;
+      }
+
+      & > span {
+        margin-left: 0.5em;
+        font-weight: 600;
+      }
+    }
+
+    & > .buttons {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 2em;
+
+      & > button {
+        font-family: "Inter", sans-serif;
+        font-weight: 300;
+        color: #fff;
+        background-color: coral;
+        padding: 0.5em 1em;
+        border-radius: 0.5rem;
+        border: 1px solid transparent;
+
+        &:hover {
+          background-color: #fcefe8;
+          color: #e86934;
+          cursor: pointer;
+          border: 1px solid #e86934;
+        }
+        & > svg {
+          margin-left: 0.5em;
+        }
+      }
+    }
+  }
+}
+
+.modal-content {
+  text-align: left;
+  font-size: 1rem;
+  & > div > p {
+    margin-bottom: 2em;
+  }
+}
