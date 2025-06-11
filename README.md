@@ -1,18 +1,34 @@
-# Expo Router Tabs With Auth Example
+# Hipofy
 
+Hipofy es una aplicación móvil desarrollada con React Native y Expo, que te ayuda a ahorrar en tus compras de supermercado, permitiéndote crear listas, comparar precios y aprovechar ofertas.
 
-## 📺 Part One Video 
-- https://youtu.be/WNZbARN7lMM
+## 🚀 Instalación
 
-Use [`expo-router`](https://expo.github.io/router) to build native navigation using files in the `app/` directory.
+1. **Clona el repositorio:**
+   ```sh
+   git clone <URL_DEL_REPOSITORIO>
+   cd hipofy
+   ```
 
-## See Integration With Firebase Authentication
-- code - https://github.com/aaronksaunders/reactnative-file-router-1/tree/firebase-auth
-- video - https://www.youtube.com/watch?v=Os5_DRhN2Aw
+2. **Instala las dependencias:**
+   ```sh
+   npm install
+   ```
 
+3. **Inicia el proyecto:**
+   ```sh
+   npm start
+   ```
+   Esto abrirá Expo DevTools en tu navegador. Desde ahí puedes lanzar la app en un emulador, dispositivo físico o en la web.
 
-## 📝 Notes
+## 📱 Scripts disponibles
 
-- [Expo Router: Docs](https://expo.github.io/router)
-- [Expo Router: Repo](https://github.com/expo/router)
-- [Request for Comments](https://github.com/expo/router/discussions/1)
+- `npm start` — Inicia el servidor de desarrollo de Expo.
+- `npm run android` — Ejecuta la app en un emulador/dispositivo Android.
+- `npm run ios` — Ejecuta la app en un simulador iOS (solo Mac).
+- `npm run web` — Ejecuta la app en el navegador.
+
+## Notas 
+
+🛠 Actualmente, el backend no está activo, por lo que algunas funcionalidades están deshabilitadas.
+El repositorio se conserva como referencia técnica de estructura y lógica en React Native.
